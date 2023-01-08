@@ -18,7 +18,6 @@ const getweather = (city) => {
 		});
 };
 const showweather = (res) => {
-	console.log(res)
 	var s = new Date(1504095567183).toLocaleTimeString("en-US");
 
 	temp.innerHTML = `
